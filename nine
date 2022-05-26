@@ -1,0 +1,13 @@
+tir = int(input('число: '))
+rio = int(input('месяц: '))
+bro = int(input('год: '))
+if tir == 31 and rio == 12 and bro == 2019:
+  print('1 января 2020')
+if tir == 1 and rio == 1 and bro == 2020:
+  print('2 января 2020')
+if tir == 2 and rio == 1 and bro == 2020:
+  print('3 января 2020')
+if tir == 3 and rio == 1 and bro == 2020:
+  print('4 января 2020')
+if tir == 4 and rio == 1 and bro == 2020:
+  print('5 января 2020')
